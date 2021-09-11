@@ -1,3 +1,3 @@
 # DSC Workshops
 
-1. [intro to python](./intro-to-python)
+1. [Intro to python](./intro-to-python)
