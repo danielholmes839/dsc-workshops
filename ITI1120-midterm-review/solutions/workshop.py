@@ -17,4 +17,18 @@ def pattern_to_stars(s, p):
     return string
 
 
-print(f("abc123123abc123", "123"))
+def main():
+    print("Enter A or B to choose one of the following two options:\n")
+    print("A: Would work with numbers?")
+    print("B: Would like to replace a pattern with stars?\n")
+
+    answer = input("Enter A or B (lower or upper case accepted): ").strip().lower()
+
+    while answer != "a" and answer != "b":
+        print("Invalid input")
+        answer = input("Enter A or B (lower or upper case accepted): ").strip().lower()
+
+    while True:
+        answer = input("Enter A or B (lower or upper case accepted): ").strip().lower()
+        if answer == 'a' or answer == 'b':
+            break
