@@ -27,5 +27,5 @@ func main() {
 	http.HandleFunc("/hello", server.wordHandler("hello"))
 	http.HandleFunc("/bye", server.wordHandler("bye"))
 
-	http.ListenAndServe(":3000", nil)
+	http.ListenAndServe("localhost:3000", nil)
 }

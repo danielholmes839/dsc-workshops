@@ -19,6 +19,6 @@ func main() {
 		message := []byte(greet.Greet())
 		w.Write(message)
 	})
-	
-	http.ListenAndServe(":3000", r)
+
+	http.ListenAndServe("localhost:3000", r)
 }

@@ -11,5 +11,5 @@ func main() {
 		w.Write(data)
 	})
 
-	http.ListenAndServe(":3000", nil)
+	http.ListenAndServe("localhost:3000", nil)
 }
