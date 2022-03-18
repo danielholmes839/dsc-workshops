@@ -6,17 +6,6 @@ import (
 	"os"
 	"strings"
 )
-
-/*
-io.Writer implementations
-- os.File
-- http.ResponseWriter, https://pkg.go.dev/net/http#ResponseWriter
-
-io.Reader implementations
-- os.File
-- strings.Reader
-*/
-
 func duplicate(in io.Reader, out io.Writer, n int) {
 	data, _ := ioutil.ReadAll(in)
 

@@ -14,7 +14,8 @@ func main() {
 
 - Concurrency. Examples showing Go routines, channels, mutexes, waitgroups, select, and deadlock
 - Web/http
-- Interfaces. `io.Reader`/`io.Writer`, `context.Context`, `Error`, `http.Handler`, `http.ResponseWriter`
+- Interfaces. `io.Reader`/`io.Writer`, `context.Context`, `Error`
+- Generics
 
 ## Resources
 
@@ -31,11 +32,7 @@ Tutorials
 Talks
 
 - [Go Proverbs - Rob Pike - Gopherfest - November 18, 2015](https://www.youtube.com/watch?v=PAAkCSZUG1c&ab_channel=TheGoProgrammingLanguage)
+- [The Why of Go - Carmen Andoh - December 28, 2017](https://www.youtube.com/watch?v=bmZNaUcwBt4&ab_channel=InfoQ)
 - [Go for Pythonistas - December 11, 2013](https://www.youtube.com/watch?v=elu0VpLzJL8&ab_channel=TheGoProgrammingLanguage)
 - [7 common mistakes in Go and when to avoid them by Steve Francia](https://www.youtube.com/watch?v=29LLRKIL_TI&ab_channel=DataCouncil)
 - [GopherCon 2019: Mat Ryer - How I Write HTTP Web Services after Eight Years](https://www.youtube.com/watch?v=rWBSMsLG8po&ab_channel=GopherAcademy)
-
-
-## Concurrency
-
-
